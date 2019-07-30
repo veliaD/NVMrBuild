@@ -4,7 +4,7 @@ branch.
 It contains scripts to build and kernel configuration files.
 
 The following is an example of how to mount the two branches on a FreeBSD 12
-system to build the sources over NFS
+system to build the sources over NFS:
 ```
 mkdir -p /b/mnt/freebsd-src /b/mnt/nvmrBuild && mount -t nfs -o tcp,nfsv3,intr remotedev:/local/home/dveliath/git/nvmr /b/mnt/freebsd-src && mount -t nfs -o tcp,nfsv3,intr remotedev:/local/home/dveliath/git/NVMrBuild /b/mnt/nvmrBuild/src
 ```
