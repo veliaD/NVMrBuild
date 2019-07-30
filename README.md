@@ -18,3 +18,6 @@ to build a kernel with INVARIANTS and other debugging enabled, and
 /b/mnt/nvmrBuild/src/scripts/bldFromScratchKrnl RELEASE
 ```
 for a regular kernel.
+
+Use `/b/mnt/nvmrBuild/src/scripts/tmnstlKrnlNmods` to install a `DEBUG` or
+`RELEASE` kernel.
